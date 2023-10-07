@@ -283,7 +283,7 @@ export class News extends Component {
 
                 <div className="container" style={{paddingTop: '50px'}}>
                     <h1 className='text-center tex mb-3'> Times Of India</h1>
-  
+  <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim omnis, soluta hic suscipit, rem provident deserunt nam ipsum ipsa iure laboriosam modi consectetur cupiditate, explicabo ullam fugit esse itaque qui!</h2>
                     <div className="row ">
                     {this.state.articles.map((ele)=>{
                         return <NewsItem key={ele.url} imgUrl={ele.urlToImage} title={ele.author?ele.author:"Hello World"} desc={ele.description.slice(0,80)} url={ele.url} date={ele.publishedAt} sourc={ele.source.name}/>
